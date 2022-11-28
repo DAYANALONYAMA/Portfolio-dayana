@@ -42,6 +42,7 @@
   --mb-1: 1rem;
   --mb-1-5: 1.5rem;
   --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
   --mb-3: 3rem;
 
   /*======= Z INDEX =========*/
@@ -116,7 +117,7 @@ img {
 }
 
 .section__title {
-  font-size: var(---h1-font-size);
+  font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
@@ -182,8 +183,14 @@ img {
 
 /*FOR MEDIUM DEVICES */
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
   .section {
     padding: 2rem 0 4rem;
+  }
+  .section__subtitle {
+    margin-bottom: var(--mb-3);
   }
 }
 
