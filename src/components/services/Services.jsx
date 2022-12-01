@@ -63,17 +63,17 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="services__content">
+        <div className="services__content" onClick={() => toggleTab(1)}>
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
               Ui/Ux <br /> Designer
             </h3>
           </div>
-          <pan className="services__button">
+          <span className="services__button">
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
-          </pan>
+          </span>
           <div className="services__modal">
             <div className="services__modal-content">
               <i className="uil uil-times sevices__modal-close"></i>
