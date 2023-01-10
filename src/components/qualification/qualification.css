@@ -55,7 +55,7 @@
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: var(--title-color);
+  background-color: var(--text-color);
   border-radius: 50%;
 }
 
@@ -69,12 +69,12 @@
 
 /*FOR LARGE DEVISE */
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   .qualification__container {
     margin-left: auto;
     margin-right: auto;
   }
-}
+} */
 
 /*FOR MEDIUM DEVICES */
 @media screen and (max-width: 768px) {

@@ -21,9 +21,8 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(1)}
           >
-            <i className="uil uil-graduation-cap qualification__icon">
-              Education
-            </i>
+            <i className="uil uil-graduation-cap qualification__icon"></i>{" "}
+            Education
           </div>
 
           <div
@@ -89,6 +88,7 @@ const Qualification = () => {
                   <i className="uil uil-calender-alt"></i>2022-Present
                 </div>
               </div>
+
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
