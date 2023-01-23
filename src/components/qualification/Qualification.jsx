@@ -47,7 +47,9 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Developer Web</h3>
+                <h3 className="qualification__title">
+                  Bac+2 Développemnt web et Mobile
+                </h3>
                 <span className="qualification__subtitle">
                   Kinshasa Digital Academy
                 </span>
@@ -69,10 +71,10 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UI/UX</h3>
-                <span className="qualification__subtitle">
-                  Kinshasa Digital Academy
-                </span>
+                <h3 className="qualification__title">
+                  Participant in the ladies act program: Web/Mobile Development
+                </h3>
+                <span className="qualification__subtitle">Rawbank</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>2022-Present
                 </div>
@@ -80,12 +82,14 @@ const Qualification = () => {
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Developer Web</h3>
+                <h3 className="qualification__title">
+                  Licence Sciences Informatiques
+                </h3>
                 <span className="qualification__subtitle">
-                  Kinshasa Digital Academy
+                  Université catholique du congo
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>2022-Present
+                  <i className="uil uil-calender-alt"></i>2021-Present
                 </div>
               </div>
 
@@ -103,12 +107,10 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UI/UX</h3>
-                <span className="qualification__subtitle">
-                  Kinshasa Digital Academy
-                </span>
+                <h3 className="qualification__title">No Yet</h3>
+                <span className="qualification__subtitle">No found</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i>2022-Present
+                  <i className="uil uil-calender-alt"></i>No yet
                 </div>
               </div>
             </div>
