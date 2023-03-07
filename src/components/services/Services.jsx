@@ -85,10 +85,7 @@ const Services = () => {
             </h3>
           </div>
 
-          <a
-            href="https://github.com/DAYANALONYAMA/Portfolio-dayana"
-            target="_blank"
-          >
+          <a href="https://github.com/DAYANALONYAMA" target="_blank">
             <span className="services__button">
               View More
               <i className="uil uil-arrow-right services__button-icon"></i>
